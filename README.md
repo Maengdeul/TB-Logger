@@ -47,4 +47,4 @@ Note: you may face OP-TEE related problem/errors during setup, please also free 
    ```
    git clone https://github.com/Maengdeul/*.git
    
-Let _$PATH_OPTEE$_ be the path of OPTEE, _$PATH_*$_
+Let __$PATH_OPTEE$__ be the path of OPTEE, __$PATH_TB$__ be the path of *
