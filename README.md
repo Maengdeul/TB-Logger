@@ -69,5 +69,3 @@ Let ```$PATH_OPTEE$``` be the path of OPTEE and ```$PATH_*$``` be the path of *.
       kdw_mac
       kdw_rsa
       ```
-      
-Awesome! You are ready to run hash and signing functions in TrustZone.
