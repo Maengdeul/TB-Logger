@@ -4,7 +4,7 @@ This application needs to be run with OP-TEE, an open source framework for ARM T
 
 Please consider citing this corresponding paper at [IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639) if this project is helpful to you:
 
-TB-Logger: Secure Vehicle Data Logging Method using Trusted Execution Environment and Blockchain Dongwoo Kang, Hyo Jin Jo
+TB-Logger: Secure Vehicle Data Logging Method using Trusted Execution Environment and Blockchain Dongwoo Kang, Hyo Jin Jo (Revisioning in progress)
 
 # Prerequisites
 
