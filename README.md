@@ -16,7 +16,8 @@ For real TrustZone, and additional board is required. Raspberry Pi 3, Hikey Boar
 
 # Setup
 
-# (1) Set up OP-TEE
+(1) Set up OP-TEE
+---
 
 1. Follow **step1** ~ **step5** in "Get and build the solution" to build the OP-TEE solution.
    https://optee.readthedocs.io/en/latest/building/gits/build.html#get-and-build-the-solution
