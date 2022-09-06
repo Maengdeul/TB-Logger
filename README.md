@@ -19,33 +19,55 @@ For real TrustZone, and additional board is required. Raspberry Pi 3, Hikey Boar
 (1) Set up OP-TEE
 ---
 
-1. Follow **step1** ~ **step5** in "Get and build the solution" to build the OP-TEE solution.
-   https://optee.readthedocs.io/en/latest/building/gits/build.html#get-and-build-the-solution
+   1. Follow **step1** ~ **step5** in "Get and build the solution" to build the OP-TEE solution.
+      https://optee.readthedocs.io/en/latest/building/gits/build.html#get-and-build-the-solution
    
-2. **For real boards**: If you are using boards, keep follow **step6** ~ **step7** in the above link to flash the devices. This step is device-specific.
+   2. **For real boards**: If you are using boards, keep follow **step6** ~ **step7** in the above link to flash the devices. This step is device-specific.
 
-   **For simulation**: If you have chosen QEMU-v7/v8, run the below command to start QEMU console.
+      **For simulation**: If you have chosen QEMU-v7/v8, run the below command to start QEMU console.
    
-   ```
-   make run
-   (qemu) c
-   ```
+      ```
+      make run
+      (qemu) c
+      ```
    
-3. Follow step8 ~ step9 to test whether OP-TEE works or not. Run:
+   3. Follow step8 ~ step9 to test whether OP-TEE works or not. Run:
 
-   ```
-   tee-supplicant -d
-   xtest
-   ```
+      ```
+      tee-supplicant -d
+      xtest
+      ```
    
 Note: you may face OP-TEE related problem/errors during setup, please also free feel to raise issues in [their pages](https://github.com/OP-TEE/optee_os).
 
 (2) Build TB-Logger
 
-1. Clone codes
+   1. Clone codes
 
-   ```
-   git clone https://github.com/Maengdeul/*.git
-   ```
+      ```
+      git clone https://github.com/Maengdeul/*.git
+      ```
    
-Let ```$PATH_OPTEE$``` be the path of OPTEE, ```$PATH_TB$``` be the path of *
+Let ```$PATH_OPTEE$``` be the path of OPTEE and ```$PATH_*$``` be the path of *.
+
+   2. Copy * to example directory
+   
+      ```
+      mkdir $PATH_OPTEE$/optee_examples/*
+      cp -a $PATH_*$/. $PATH_OPTEE$/optee_examples/*/
+      ```
+      
+   3. Rebuild the OP-TEE
+   
+   **For simulation**, to run ```make run``` again.
+   
+   **For real boards**, to run ```make all``` to flash the OP-TEE with ```*``` to your device.
+   
+   4. After then boot your devices or QEMU and test by the command
+   
+   ```
+   kdw_mac
+   kdw_rsa
+   ```
+Awesome! You are ready to run hash and signing functions in TrustZone.
+
