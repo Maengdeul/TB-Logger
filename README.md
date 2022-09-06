@@ -41,6 +41,7 @@ For real TrustZone, and additional board is required. Raspberry Pi 3, Hikey Boar
 Note: you may face OP-TEE related problem/errors during setup, please also free feel to raise issues in [their pages](https://github.com/OP-TEE/optee_os).
 
 (2) Build TB-Logger
+---
 
    1. Clone codes
 
