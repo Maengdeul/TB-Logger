@@ -65,9 +65,9 @@ Let ```$PATH_OPTEE$``` be the path of OPTEE and ```$PATH_*$``` be the path of *.
    
    4. After then boot your devices or QEMU and test by the command
    
-   ```
-   kdw_mac
-   kdw_rsa
-   ```
+      ```
+      kdw_mac
+      kdw_rsa
+      ```
 Awesome! You are ready to run hash and signing functions in TrustZone.
 
