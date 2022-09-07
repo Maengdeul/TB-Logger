@@ -2,6 +2,8 @@
 
 https://github.com/mofanv/darknetz
 
+# Introduction
+
 This is an application runs hash and signing functions in TrustZone for EDR's secure data logging.
 
 This application needs to be run with OP-TEE, an open source framework for ARM TrustZone.
