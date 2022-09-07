@@ -1,4 +1,6 @@
-**Reference**: https://github.com/mofanv/darknetz
+# Reference
+
+https://github.com/mofanv/darknetz
 
 This is an application runs hash and signing functions in TrustZone for EDR's secure data logging.
 
