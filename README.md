@@ -81,3 +81,9 @@ Let ```$PATH_OPTEE$``` be the path of OPTEE and ```$PATH_*$``` be the path of *.
       ```
       cp -a $PATH_*$/. $PATH_OPTEE$/out-br/target/root/*/
       ```
+
+License
+---
+```
+Copyright (c) 2022 Dongwoo Kang, ehddn627@gmail.com
+```
