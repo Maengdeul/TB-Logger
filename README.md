@@ -76,7 +76,7 @@ Let ```$PATH_OPTEE$``` be the path of OPTEE and ```$PATH_*$``` be the path of *.
       kdw_mac
       kdw_rsa
       ```
-   5. If you want to upload files to the secure world
+   5. If you want to upload files to the secure world, copy your files to secure world's root directory
    
       ```
       cp -a $PATH_*$/. $PATH_OPTEE$/out-br/target/root/*/
