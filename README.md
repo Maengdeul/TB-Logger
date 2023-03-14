@@ -8,7 +8,7 @@ This is an application runs hash and signing functions in TrustZone for EDR's se
 
 This application needs to be run with OP-TEE, an open source framework for ARM TrustZone.
 
-**Corresponding paper**: TB-Logger: Secure Vehicle Data Logging Method using Trusted Execution Environment and Blockchain (IEEE Access, 2023)
+**Corresponding paper**: [TB-Logger: Secure Vehicle Data Logging Method using Trusted Execution Environment and Blockchain](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10061395) (IEEE Access, 2023)
 
 # Prerequisites
 
